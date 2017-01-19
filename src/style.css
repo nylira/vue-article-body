@@ -194,7 +194,7 @@
 .pz-article-body h4 i.fa:active,
 .pz-article-body h5 i.fa:active,
 .pz-article-body h6 i.fa:active {
-  color: #007e;
+  color: #07e;
 }
 .pz-article-body h1 i.fa.active:after,
 .pz-article-body h2 i.fa.active:after,
@@ -304,4 +304,3 @@
     max-height: 27rem;
   }
 }
-
