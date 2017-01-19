@@ -28,7 +28,6 @@
   letter-spacing: -0.004em;
   line-height: 1.7;
   font-weight: 400;
-
   color: hsla(0,0%,0%,0.8);
 }
 
@@ -140,17 +139,13 @@
   font-size: 1.5rem;
 }
 .pz-article-body h4 {
+  font-size: 1.25rem;
 }
 .pz-article-body h5 {
   font-size: 1.125rem;
 }
 .pz-article-body h6 {
   font-size: 1rem;
-}
-
-.pz-article-body h1 + h2,
-.pz-article-body h1 + h3 {
-  margin-top: 0;
 }
 
 .pz-article-body h1 + p {
@@ -160,10 +155,6 @@
   font-size: 1.25em;
   font-weight: 300;
   line-height: 1.25;
-}
-
-.pz-article-body h2:first-child {
-  margin-top: 0;
 }
 
 .pz-article-body h1 i.fa,
