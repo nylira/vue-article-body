@@ -26,7 +26,7 @@
   font-family: Lora, Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 1.0625rem;
   letter-spacing: -0.004em;
-  line-height: 1.7;
+  line-height: 1.58;
   font-weight: 400;
   color: hsla(0,0%,0%,0.8);
 }
@@ -124,7 +124,7 @@
   font-weight: 600;
   position: relative;
   line-height: 1.05;
-  margin: 3rem 0 1rem;
+  margin: 3.16rem 0 1.58rem;
 }
 
 .pz-article-body h1 {
