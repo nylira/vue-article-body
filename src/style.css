@@ -1,0 +1,307 @@
+.pz-article-body {
+  /* container */
+  max-width: 46.25rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+
+  /* Instead use this non-standard one */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+
+  /* font text */
+  font-family: Lora, 'Gentium Basic', Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 1.0625rem;
+  letter-spacing: -0.004em;
+  line-height: 1.7;
+  font-weight: 400;
+
+  color: hsla(0,0%,0%,0.8);
+}
+
+.pz-article-body hr {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  background: transparent;
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.pz-article-body a {
+  border-bottom: 1px solid hsla(0,0%,0%,0.8);
+  color: hsla(0,0%,0%,0.8);
+}
+.pz-article-body a:hover {
+  color: #07e;
+  border-bottom-color: #07e;
+}
+
+.pz-article-body strong {
+  font-weight: bold;
+}
+.pz-article-body em {
+  font-style: italic;
+}
+.pz-article-body code {
+  font-family: Consolas, 'Deja Vu Sans Mono', 'Andale Sans Mono', monospace;
+  background: #f0f0f0;
+  margin: 0 0 24px;
+}
+.pz-article-body pre {
+  background: #f0f0f0;
+  overflow-x: scroll;
+  margin-bottom: 1.5rem;
+  margin-left: -1.25rem;
+  margin-right: -1.25rem;
+  padding: 0.375rem 0.5rem;
+  line-height: 1.25;
+}
+.pz-article-body pre code {
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+.pz-article-body p,
+.pz-article-body hr,
+.pz-article-body ul,
+.pz-article-body ol,
+.pz-article-body table,
+.pz-article-body blockquote,
+.pz-article-body img,
+.pz-article-body .btn {
+  margin-bottom: 1.38em;
+}
+.pz-article-body p:empty {
+  display: none;
+}
+.pz-article-body .youtube {
+  display: block;
+  margin-bottom: 24px;
+}
+.pz-article-body p code:before,
+.pz-article-body p code:after {
+  letter-spacing: -0.375em;
+  content: "\00a0";
+}
+.pz-article-body img {
+  margin: 0;
+}
+.pz-article-body .left,
+.pz-article-body .right {
+  margin-bottom: 2.5em !important;
+}
+.pz-article-body .left {
+  float: left !important;
+  padding-right: 2.5em !important;
+}
+.pz-article-body .right {
+  float: right !important;
+  padding-left: 2.5em !important;
+}
+.pz-article-body img {
+  max-width: 100%;
+}
+.pz-article-body h1,
+.pz-article-body h2,
+.pz-article-body h3,
+.pz-article-body h4,
+.pz-article-body h5,
+.pz-article-body h6 {
+  font-family: system, -apple-system, BlinkMacSystemFont, "Roboto", "Seogue UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+  color: #000;
+  font-weight: 600;
+  position: relative;
+  line-height: 1.05;
+  margin: 3rem 0 1rem;
+}
+
+.pz-article-body h1 {
+  font-size: 2rem;
+  padding-top: 3rem;
+}
+.pz-article-body h2 {
+  font-size: 1.75rem;
+  margin: 2rem 0 1rem;
+}
+.pz-article-body h3 {
+  font-size: 1.5rem;
+}
+.pz-article-body h4 {
+}
+.pz-article-body h5 {
+  font-size: 1.125rem;
+}
+.pz-article-body h6 {
+  font-size: 1rem;
+}
+
+.pz-article-body h1 + h2,
+.pz-article-body h1 + h3 {
+  margin-top: 0;
+}
+
+.pz-article-body h1 + p {
+  font-family: system, -apple-system, BlinkMacSystemFont, "Roboto", "Seogue UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+  color: #999;
+  margin-top: -0.5em;
+  font-size: 1.25em;
+  font-weight: 300;
+  line-height: 1.25;
+}
+
+.pz-article-body h2:first-child {
+  margin-top: 0;
+}
+
+.pz-article-body h1 i.fa,
+.pz-article-body h2 i.fa,
+.pz-article-body h3 i.fa,
+.pz-article-body h4 i.fa,
+.pz-article-body h5 i.fa,
+.pz-article-body h6 i.fa {
+  position: absolute;
+  top: 0.333em;
+  left: -1.5em;
+  font-size: 1em;
+  cursor: copy;
+  color: #ccc;
+}
+.pz-article-body h1 i.fa:hover,
+.pz-article-body h2 i.fa:hover,
+.pz-article-body h3 i.fa:hover,
+.pz-article-body h4 i.fa:hover,
+.pz-article-body h5 i.fa:hover,
+.pz-article-body h6 i.fa:hover {
+  color: #666;
+}
+.pz-article-body h1 i.fa:active,
+.pz-article-body h2 i.fa:active,
+.pz-article-body h3 i.fa:active,
+.pz-article-body h4 i.fa:active,
+.pz-article-body h5 i.fa:active,
+.pz-article-body h6 i.fa:active {
+  color: #007e;
+}
+.pz-article-body h1 i.fa.active:after,
+.pz-article-body h2 i.fa.active:after,
+.pz-article-body h3 i.fa.active:after,
+.pz-article-body h4 i.fa.active:after,
+.pz-article-body h5 i.fa.active:after,
+.pz-article-body h6 i.fa.active:after {
+  display: block;
+  position: absolute;
+  top: 3em;
+  right: 0;
+  background: #fff;
+  padding: 0.125rem 0.25rem;
+  content: 'Copied!';
+  font-family: system, -apple-system, BlinkMacSystemFont, "Roboto", "Seogue UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+  font-size: 0.75rem;
+  color: #666;
+}
+.pz-article-body ul,
+.pz-article-body ol {
+  padding-left: 1.25em;
+}
+.pz-article-body ul ul,
+.pz-article-body ul ol,
+.pz-article-body ol ul,
+.pz-article-body ol ol {
+  margin-bottom: 0;
+  padding-top: 0.25em;
+}
+.pz-article-body ul li {
+  list-style: square;
+  margin-bottom: 0.25em;
+}
+.pz-article-body ol li {
+  list-style: decimal;
+}
+.pz-article-body table {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  width: 100%;
+}
+.pz-article-body table th {
+  font-weight: 600;
+  background: #e5f3ff;
+  color: #004480;
+}
+.pz-article-body table td,
+.pz-article-body table th {
+  border: 1px solid #e0e0e0;
+  padding: 0.25em 0.5em;
+}
+.pz-article-body blockquote {
+  border: 1px solid #c6e4ff;
+  padding: 12px 16px;
+  background: #ecf6ff;
+  position: relative;
+  color: #004480;
+}
+.pz-article-body blockquote p,
+.pz-article-body blockquote ul,
+.pz-article-body blockquote ol {
+  margin-bottom: 12px;
+}
+.pz-article-body blockquote p:last-child,
+.pz-article-body blockquote ul:last-child,
+.pz-article-body blockquote ol:last-child {
+  margin-bottom: 0;
+}
+.pz-article-body blockquote + h2 {
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 720px) {
+  .pz-article-body {
+    /* text */
+    font-size: 1.25rem;
+    letter-spacing: -0.003em;
+  }
+
+  .pz-article-body h1 {
+    font-size: 2.5rem;
+  }
+  .pz-article-body h2 {
+    font-size: 2.2rem;
+  }
+  .pz-article-body h3 {
+    font-size: 1.9rem;
+  }
+  .pz-article-body h4 {
+    font-size: 1.6rem;
+  }
+  .pz-article-body h5 {
+    font-size: 1.3rem;
+  }
+  .pz-article-body h6 {
+    font-size: 1.15rem;
+  }
+
+  .pz-article-body pre {
+    font-size: 16px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .pz-article-body iframe.iframe-video {
+    max-width: 48rem;
+    max-height: 27rem;
+  }
+}
+
