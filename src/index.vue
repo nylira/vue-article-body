@@ -11,6 +11,4 @@ export default {
 }
 </script>
 
-<style>
-
 <style src="./style.css"></style>
