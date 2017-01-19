@@ -7,7 +7,6 @@
   margin-right: auto;
 
   /* These are technically the same, but use both */
-  overflow-wrap: break-word;
   word-wrap: break-word;
   -ms-word-break: break-all;
 
@@ -24,7 +23,7 @@
   hyphens: auto;
 
   /* font text */
-  font-family: Lora, 'Gentium Basic', Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: Lora, Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 1.0625rem;
   letter-spacing: -0.004em;
   line-height: 1.7;
