@@ -305,7 +305,7 @@
   }
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 960px) {
   .pz-article-body {
     margin-top: 3rem
   }
