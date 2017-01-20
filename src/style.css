@@ -4,6 +4,8 @@
   padding-left: 1.25rem;
   padding-right: 1.25rem;
   padding-bottom: 3rem;
+
+  margin-top: 1.5rem;
   margin-left: auto;
   margin-right: auto;
 
@@ -300,5 +302,11 @@
   .pz-article-body iframe.iframe-video {
     max-width: 48rem;
     max-height: 27rem;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .pz-article-body {
+    margin-top: 3rem
   }
 }
