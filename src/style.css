@@ -226,6 +226,10 @@
 .pz-article-body li p + ol {
   margin-top: -1.58em;
 }
+.pz-article-body li p + ul:last-child,
+.pz-article-body li p + ol:last-child {
+  margin-bottom: 1.58em;
+}
 .pz-article-body table {
   border: 1px solid #ddd;
   border-collapse: collapse;
