@@ -1,4 +1,4 @@
-.pz-article-body {
+3pz-article-body {
   /* container */
   max-width: 46.25rem;
   padding-left: 1.25rem;
@@ -82,7 +82,7 @@
 .pz-article-body blockquote,
 .pz-article-body img,
 .pz-article-body .btn {
-  margin-bottom: 1.38em;
+  margin-bottom: 1.58em;
 }
 .pz-article-body p:empty {
   display: none;
@@ -224,7 +224,7 @@
 }
 .pz-article-body li p + ul,
 .pz-article-body li p + ol {
-  margin-bottom: 0;
+  margin-top: -1.58em;
 }
 .pz-article-body table {
   border: 1px solid #ddd;
