@@ -222,6 +222,10 @@
 .pz-article-body ol li {
   list-style: decimal;
 }
+.pz-article-body li p + ul,
+.pz-article-body li p + ol {
+  margin-bottom: 0;
+}
 .pz-article-body table {
   border: 1px solid #ddd;
   border-collapse: collapse;
