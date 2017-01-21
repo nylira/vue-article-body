@@ -85,6 +85,7 @@
 .pz-article-body pre code {
   margin-bottom: 0;
   font-size: 1rem;
+  background: transparent;
 }
 .pz-article-body p,
 .pz-article-body hr,
