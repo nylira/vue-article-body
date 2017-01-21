@@ -64,7 +64,7 @@
   margin: 0 0 24px;
 }
 .pz-article-body pre {
-  background: #f0f0f0;
+  border: 1px solid #ddd;
   overflow-x: scroll;
   margin-left: -1.25rem;
   margin-right: -1.25rem;
@@ -72,10 +72,16 @@
   line-height: 1.25;
 }
 .pz-article-body pre + figcaption {
+  font-size: 0.875rem;
   margin-top: -1.58rem;
   background: #eee;
-  padding 0.5em;
+  border: 1px solid #ddd;
+  border-top: none;
+  padding 0.5rem;
+  color: #666;
+  margin-bottom: 1.58rem;
 }
+
 .pz-article-body pre code {
   margin-bottom: 0;
   font-size: 1rem;
