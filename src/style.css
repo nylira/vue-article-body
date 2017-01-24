@@ -1,15 +1,13 @@
 .pz-article-body {
-  /* container */
   max-width: 46.25rem;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
   padding-bottom: 3rem;
-
   margin-top: 1.5rem;
   margin-left: auto;
   margin-right: auto;
 
-  /* font text */
+  /* text */
   font-family: Lora, Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 1.0625rem;
   letter-spacing: -0.004em;
