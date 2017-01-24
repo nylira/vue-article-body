@@ -1,6 +1,6 @@
 {
   "name": "@nylira/vue-article-body",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Article body component for Vue 2.",
   "main": "index.js",
   "scripts": {

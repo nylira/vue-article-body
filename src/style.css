@@ -28,6 +28,7 @@
 .pz-article-body a {
   border-bottom: 1px solid hsla(0,0%,0%,0.8);
   color: hsla(0,0%,0%,0.8);
+  word-wrap: break-word;
 }
 .pz-article-body a:hover {
   color: #07e;
