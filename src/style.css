@@ -149,8 +149,8 @@
 
 .pz-article-body h1 + p {
   font-family: system, -apple-system, BlinkMacSystemFont, "Roboto", "Seogue UI", "Helvetica Neue", "Lucida Grande", sans-serif;
-  color: #999;
-  margin-top: -0.5em;
+  color: #666;
+  margin-top: -0.58em;
   font-size: 1.25em;
   font-weight: 300;
   line-height: 1.25;
