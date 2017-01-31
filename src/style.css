@@ -1,9 +1,6 @@
 .pz-article-body {
   max-width: 46.25rem;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  padding-bottom: 3rem;
-  margin-top: 1.5rem;
+  padding 1.5rem 1.25rem 3rem;
   margin-left: auto;
   margin-right: auto;
 
