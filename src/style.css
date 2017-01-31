@@ -150,7 +150,6 @@
 .pz-article-body h1 + p {
   font-family: system, -apple-system, BlinkMacSystemFont, "Roboto", "Seogue UI", "Helvetica Neue", "Lucida Grande", sans-serif;
   color: #666;
-  margin-top: -0.58em;
   font-size: 1.25em;
   font-weight: 300;
   line-height: 1.25;
@@ -271,6 +270,15 @@
     letter-spacing: -0.003em;
   }
 
+  .pz-article-body h1,
+  .pz-article-body h2,
+  .pz-article-body h3,
+  .pz-article-body h4,
+  .pz-article-body h5,
+  .pz-article-body h6 {
+    margin: 3.16rem 0 1.58rem;
+  }
+
   .pz-article-body h1 {
     font-size: 2.5rem;
   }
@@ -304,6 +312,6 @@
 
 @media screen and (min-width: 960px) {
   .pz-article-body {
-    margin-top: 3rem
+    padding-top: 3rem
   }
 }
