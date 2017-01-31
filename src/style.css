@@ -126,11 +126,13 @@
 .pz-article-body h1 {
   font-size: 2rem;
   font-weight: 700;
-  margin-top: 1.5rem;
+  margin-top: 1.58rem;
+}
+.pz-article-body h1:first-child {
+  margin-top: 0;
 }
 .pz-article-body h2 {
   font-size: 1.6rem;
-  margin: 2rem 0 1rem;
 }
 .pz-article-body h3 {
   font-size: 1.4rem;
