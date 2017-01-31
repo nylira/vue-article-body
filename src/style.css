@@ -91,9 +91,6 @@
   letter-spacing: -0.375em;
   content: "\00a0";
 }
-.pz-article-body img {
-  margin: 0;
-}
 .pz-article-body .left,
 .pz-article-body .right {
   margin-bottom: 2.5em !important;
