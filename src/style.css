@@ -265,8 +265,8 @@
     /* text */
     font-size: 1.25rem;
     letter-spacing: -0.003em;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    max-width: 49.75rem;
+    padding: 3rem;
   }
 
   .pz-article-body h1,
@@ -311,6 +311,7 @@
 
 @media screen and (min-width: 960px) {
   .pz-article-body {
-    padding-top: 3rem
+    max-width: 46.75rem;
+    padding 3rem 0;
   }
 }
