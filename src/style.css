@@ -265,6 +265,8 @@
     /* text */
     font-size: 1.25rem;
     letter-spacing: -0.003em;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   .pz-article-body h1,
