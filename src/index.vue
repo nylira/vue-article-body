@@ -1,12 +1,12 @@
 <template>
-  <div class="pz-article-body">
+  <div class="ny-article-body">
     <slot></slot>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'pz-article-body',
+  name: 'ny-article-body',
   props: ['content']
 }
 </script>
