@@ -1,12 +1,12 @@
 <template>
-  <div class="ny-article-body">
+  <div class="ni-article-body">
     <slot></slot>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'ny-article-body',
+  name: 'ni-article-body',
   props: ['content']
 }
 </script>
