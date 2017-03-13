@@ -82,9 +82,12 @@
 .ni-article-body p:empty {
   display: none;
 }
+.ni-article-body p img {
+  margin-bottom: 0;
+}
 .ni-article-body .youtube {
   display: block;
-  margin-bottom: 24px;
+  margin-bottom: 1.58em;
 }
 .ni-article-body p code:before,
 .ni-article-body p code:after {
