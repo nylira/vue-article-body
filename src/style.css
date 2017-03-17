@@ -272,7 +272,7 @@
 }
 
 @media screen and (min-width: 720px) {
-  .ni-article-body {
+  .ni-article-body-container {
     /* text */
     font-size: 1.125rem;
     max-width: 52.03125rem;
