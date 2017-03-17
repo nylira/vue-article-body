@@ -1,6 +1,8 @@
 <template>
   <div class="ni-article-body">
-    <slot></slot>
+    <div class="ni-article-body-container">
+      <slot></slot>
+    </div>
   </div>
 </template>
 
