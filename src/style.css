@@ -3,7 +3,7 @@
 }
 .ni-article-body-container {
   max-width: 48rem;
-  padding: 1.5rem 1.25rem;
+  padding: 1.5rem 1.25rem 0;
   margin-left: auto;
   margin-right: auto;
 
@@ -275,7 +275,7 @@
   .ni-article-body-container {
     /* text */
     font-size: 1.125rem;
-    padding: 3rem;
+    padding: 3rem 3rem 1.5rem;
   }
 
   .ni-article-body h1,
