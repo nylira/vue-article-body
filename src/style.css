@@ -43,7 +43,7 @@
 .ni-article-body code {
   font-family: Consolas, 'Deja Vu Sans Mono', 'Andale Sans Mono', monospace;
   background: #f0f0f0;
-  margin: 0 0 24px;
+  margin: 0 0 1.5em;
 }
 .ni-article-body pre {
   border-top: 1px solid #ddd;
@@ -80,7 +80,7 @@
 .ni-article-body blockquote,
 .ni-article-body img,
 .ni-article-body .btn {
-  margin-bottom: 1.58em;
+  margin-bottom: 1.5em;
 }
 .ni-article-body p:empty {
   display: none;
@@ -90,7 +90,7 @@
 }
 .ni-article-body .youtube {
   display: block;
-  margin-bottom: 1.58em;
+  margin-bottom: 1.5em;
 }
 .ni-article-body p code:before,
 .ni-article-body p code:after {
@@ -229,11 +229,11 @@
 }
 .ni-article-body li p + ul,
 .ni-article-body li p + ol {
-  margin-top: -1.58em;
+  margin-top: -1.5em;
 }
 .ni-article-body li p + ul:last-child,
 .ni-article-body li p + ol:last-child {
-  margin-bottom: 1.58em;
+  margin-bottom: 1.5em;
 }
 .ni-article-body table {
   border: 1px solid #ddd;
