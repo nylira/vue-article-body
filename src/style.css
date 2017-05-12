@@ -3,7 +3,7 @@
 }
 .ni-article-body-container {
   max-width: 48rem;
-  padding: 1.5rem 1.25rem;
+  padding: 1.25rem;
   margin-left: auto;
   margin-right: auto;
 
@@ -269,6 +269,12 @@
 }
 .ni-article-body blockquote + h2 {
   margin-top: 24px;
+}
+
+@media screen and (min-width: 360px) {
+  .ni-article-body-container {
+    padding: 1.5rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
