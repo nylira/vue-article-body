@@ -44,8 +44,7 @@
   hyphens: auto;
 }
 .ni-article-body a:hover {
-  color: #07e;
-  border-bottom-color: #07e;
+  text-decoration: underline;
 }
 
 .ni-article-body strong {
@@ -136,16 +135,13 @@
 .ni-article-body h5,
 .ni-article-body h6 {
   font-family: system, -apple-system, BlinkMacSystemFont, "Roboto", "Seogue UI", "Helvetica Neue", "Lucida Grande", sans-serif;
-  color: #000;
-  font-weight: 600;
   position: relative;
   line-height: 1.05;
-  margin: 1.5rem 0 0.79rem;
+  margin: 1.5rem 0 0.75rem;
 }
 
 .ni-article-body h1 {
   font-size: 2rem;
-  font-weight: 600;
   margin-top: 1.5rem;
 }
 .ni-article-body h1:first-child,
@@ -156,17 +152,26 @@
 .ni-article-body h6:first-child {
   margin-top: 0;
 }
-.ni-article-body h2 {
-  font-size: 1.5rem;
+.ni-article-body h1,
+.ni-article-body h3,
+.ni-article-body h5 {
+  color: #555;
+  font-weight: bold;
+}
+.ni-article-body h2,
+.ni-article-body h4,
+.ni-article-body h6 {
+  color: #000;
+  font-weight: 600;
 }
 .ni-article-body h3 {
-  font-size: 1.375rem;
+  font-size: 1.53125;
 }
 .ni-article-body h4 {
-  font-size: 1.25em;
+  font-size: 1.33984375rem;
 }
 .ni-article-body h5 {
-  font-size: 1.125;
+  font-size: 1.1723632813rem;
 }
 .ni-article-body h6 {
   font-size: 1rem;
@@ -265,7 +270,6 @@
 
 @media screen and (min-width: 768px) {
   .ni-article-body-container {
-    /* text */
     /* font-size: 1.125rem; */
     padding: 3rem 3rem 1.5rem;
   }
