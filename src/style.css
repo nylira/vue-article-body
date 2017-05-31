@@ -17,7 +17,7 @@
 
 .ni-article-body hr {
   border: none;
-  border-top: 1px solid #e0e0e0;
+  border-top: 1px solid #eee;
   background: transparent;
   height: 0;
   margin: 0;
@@ -72,13 +72,12 @@
   font-size: 0.875rem;
   margin-top: -1.5rem;
   background: #eee;
-  border: 1px solid #ddd;
+  border: 1px solid #eee;
   border-top: none;
   padding: 0.5rem;
-  color: #666;
+  color: #555;
   margin-bottom: 1.5rem;
 }
-
 .ni-article-body pre code {
   margin-bottom: 0;
   font-weight: normal;
@@ -157,7 +156,7 @@
 .ni-article-body h2,
 .ni-article-body h4,
 .ni-article-body h6 {
-  color: #999;
+  color: #888;
   font-weight: bold;
 }
 .ni-article-body h1 {
@@ -182,7 +181,7 @@
 
 .ni-article-body ul,
 .ni-article-body ol {
-  padding-left: 1.25em;
+  padding-left: 1.5em;
 }
 .ni-article-body ul ul,
 .ni-article-body ul ol,
@@ -222,16 +221,15 @@
   padding: 0.25em 0.5em;
 }
 .ni-article-body blockquote {
-  border: 1px solid #c6e4ff;
   padding: 0.75rem 1rem;
-  background: #ecf6ff;
+  background: hsl(210,50%,90);
   position: relative;
-  color: #004480;
+  color: hsl(210,75%,33%);
 }
 .ni-article-body blockquote p,
 .ni-article-body blockquote ul,
 .ni-article-body blockquote ol {
-  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
 }
 .ni-article-body blockquote p:last-child,
 .ni-article-body blockquote ul:last-child,
