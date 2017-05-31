@@ -140,10 +140,7 @@
   margin: 1.5rem 0 0.75rem;
 }
 
-.ni-article-body h1 {
-  font-size: 2rem;
-  margin-top: 1.5rem;
-}
+
 .ni-article-body h1:first-child,
 .ni-article-body h2:first-child,
 .ni-article-body h3:first-child,
@@ -164,8 +161,15 @@
   color: #555;
   font-weight: bold;
 }
+.ni-article-body h1 {
+  font-size: 2rem;
+  margin-top: 1.5rem;
+}
+.ni-article-body h2 {
+  font-size: 1.75rem;
+}
 .ni-article-body h3 {
-  font-size: 1.53125;
+  font-size: 1.53125rem;
 }
 .ni-article-body h4 {
   font-size: 1.33984375rem;
