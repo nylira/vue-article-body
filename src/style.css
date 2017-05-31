@@ -42,10 +42,11 @@
 }
 .ni-article-body code {
   font-family: Consolas, 'Deja Vu Sans Mono', 'Andale Sans Mono', monospace;
-  margin: 0 0 1.5em;
+  margin: 0 0 1.5rem;
   font-size: 0.875rem;
-  background: hsl(220,13%,18%);
-  color: hsl(220, 14%, 71%);
+  background: #eee;
+  font-weight: bold;
+  padding: 0 0.25rem;
 }
 .ni-article-body pre {
   overflow-x: scroll;
@@ -67,6 +68,9 @@
 
 .ni-article-body pre code {
   margin-bottom: 0;
+  font-weight: normal;
+  background: hsl(220,13%,18%);
+  color: hsl(220, 14%, 71%);
 }
 .ni-article-body p,
 .ni-article-body hr,
