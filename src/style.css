@@ -78,6 +78,10 @@
   color: #555;
   margin-bottom: 1.5rem;
 }
+.ni-article-body pre {
+  background: hsl(220,13%,18%);
+  color: hsl(220, 14%, 71%);
+}
 .ni-article-body pre code {
   margin-bottom: 0;
   font-weight: normal;
