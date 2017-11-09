@@ -43,7 +43,7 @@ export default {
     font-style italic
 
   code
-    font-family Consolas, 'Deja Vu Sans Mono', 'Andale Sans Mono', monospace
+    font-family mono
     margin-bottom 1.5rem
     font-size 0.875rem
     background app-fg
@@ -94,18 +94,18 @@ export default {
   img
     max-width 100%
   h1
-    font-size 2rem
+    font-size h1
     margin-top 1.5rem
   h2
-    font-size 1.75rem
+    font-size h2
   h3
-    font-size 1.53125rem
+    font-size h3
   h4
-    font-size 1.33984375rem
+    font-size h4
   h5
-    font-size 1.1723632813rem
+    font-size h5
   h6
-    font-size 1rem
+    font-size h6
   ul
     li
       list-style square
@@ -134,7 +134,7 @@ export default {
   padding 1rem
   margin-left auto
   margin-right auto
-  font-family Lora, Georgia, Cambria, "Times New Roman", Times, serif
+  font-family sans
   font-size 1rem
   line-height 1.5
   font-weight 400
@@ -167,7 +167,6 @@ export default {
 .ni-article-body h4,
 .ni-article-body h5,
 .ni-article-body h6
-  font-family system, -apple-system, BlinkMacSystemFont, "Roboto", "Seogue UI", "Helvetica Neue", "Lucida Grande", sans-serif
   position relative
   line-height 1.05
   margin 1.5rem 0 0.75rem
@@ -179,18 +178,6 @@ export default {
 .ni-article-body h5:first-child,
 .ni-article-body h6:first-child
   margin-top 0
-
-.ni-article-body h1,
-.ni-article-body h3,
-.ni-article-body h5
-  color bright
-  font-weight 600
-
-.ni-article-body h2,
-.ni-article-body h4,
-.ni-article-body h6
-  color dim
-  font-weight bold
 
 .ni-article-body ul,
 .ni-article-body ol
