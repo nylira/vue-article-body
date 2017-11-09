@@ -262,12 +262,12 @@ export default {
         max-width 48rem
         max-height 27rem
 
-.ni-article-body h1,
+@media screen and (min-width: 768px)
+  .ni-article-body h1,
   .ni-article-body h2,
   .ni-article-body h3,
   .ni-article-body h4,
   .ni-article-body h5,
-@media screen and (min-width: 768px)   .ni-article-body h6
-  margin 3rem 0 1.5rem
-
+  .ni-article-body h6
+    margin 3rem 0 1.5rem
 </style>
