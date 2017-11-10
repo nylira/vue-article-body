@@ -94,18 +94,7 @@ export default {
   img
     max-width 100%
   h1
-    font-size h1
     margin-top 1.5rem
-  h2
-    font-size h2
-  h3
-    font-size h3
-  h4
-    font-size h4
-  h5
-    font-size h5
-  h6
-    font-size h6
   ul
     li
       list-style square
